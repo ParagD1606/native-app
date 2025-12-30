@@ -3,14 +3,6 @@ import { Text, Image, TouchableOpacity, View } from "react-native";
 
 import { icons } from "@/constants/icons";
 
-/* ---------- TYPE ---------- */
-type Movie = {
-  id: number;
-  poster_path: string | null;
-  title: string;
-  vote_average: number;
-  release_date?: string;
-};
 
 /* ---------- COMPONENT ---------- */
 const MovieCard = ({
