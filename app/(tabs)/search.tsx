@@ -11,7 +11,7 @@ import { updateSearchCount } from "@/services/appwrite";
 import SearchBar from "@/components/SearchBar";
 import MovieDisplayCard from "@/components/MovieCard";
 
-const search = () => {
+const Search = () => {
   const [searchQuery, setSearchQuery] = useState("");
 
   const {
@@ -119,4 +119,4 @@ const search = () => {
   );
 };
 
-export default search;
+export default Search;
